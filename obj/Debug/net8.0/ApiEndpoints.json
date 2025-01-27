@@ -1,0 +1,390 @@
+[
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_9",
+    "RelativePath": "getAllClaims",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_16",
+    "RelativePath": "getAllClaimsFromInvoice",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_15",
+    "RelativePath": "getAllInvoices",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_17",
+    "RelativePath": "getAllProcessedClaims",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_12",
+    "RelativePath": "getAmountEarned",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_19",
+    "RelativePath": "getApprovedClaimsByLecturer/{lecturerId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_11",
+    "RelativePath": "getLecturerFullName",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_18",
+    "RelativePath": "getProcessedClaimsByLecturer/{lecturerId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_13",
+    "RelativePath": "getTotalAmountEarned",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_7",
+    "RelativePath": "getUserClaims",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_10",
+    "RelativePath": "getUserFullNameByClaim",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_5",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_4",
+    "RelativePath": "signup",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "surname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_8",
+    "RelativePath": "updateClaim",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_6",
+    "RelativePath": "uploadClaim",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uploadDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "hours",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rate",
+        "Type": "System.Double",
+        "IsRequired": true
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "filePath",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_14",
+    "RelativePath": "uploadInvoice",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
